@@ -1,0 +1,41 @@
+/* main.css */
+
+header {
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    height: 56px;
+    z-index: 2;
+}
+
+.content {
+    margin-top: 56px;
+    padding: 10px;
+    z-index: 1;
+    margin-bottom: 56px;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+input:focus {
+    outline: transparent none 0;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.w3-img {
+    width: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
